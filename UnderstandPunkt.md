@@ -270,3 +270,13 @@ re_boundary_realignment = regex.compile(
     regex.MULTILINE | regex.VERBOSE  # Enable multiline mode and allow inline comments
 )
 ```
+
+
+Sooo many things to patch...
+
+```
+MULTILINGUAL_SENT_END = [
+    ".", "!", "?", "。", "！", "？",
+    "؟", "۔", "።", "।", "॥", "᙮", "⸮", "𐩐"
+]
+```
