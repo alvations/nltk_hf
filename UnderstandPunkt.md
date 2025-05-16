@@ -56,7 +56,7 @@ class PunktSentenceTokenizer(PunktBaseClass, TokenizerI):
 
 Nested inheritance... So what's in `PunktBaseClass`?
 
-```
+```python
 class PunktBaseClass:
     """
     Includes common components of PunktTrainer and PunktSentenceTokenizer.
@@ -76,7 +76,7 @@ class PunktBaseClass:
 
 For sub-ojects... `PunktLanguageVars` and `PunktParameters`. Lets start with the lang vars
 
-```
+```python
 class PunktLanguageVars:
     """
     Stores variables, mostly regular expressions, which may be
@@ -195,3 +195,47 @@ Cool, `__slots__` magic! This is a Pythonic mechanism to pre-initialize variable
 
 I see that the slots are going to hold bunch of regexes `__slots__ = ("_re_period_context", "_re_word_tokenizer")`, I think modern Python is fast enough to avoid this. For simplicity in reimplementation most probably we can avoid the `__slots__` mechanism.
 
+Now lets try to vibe code the heck out of this `PunktLanguageVars` to chatgpt
+
+
+```
+Simplify this regex
+
+re_boundary_realignment = re.compile(r'["\')\]}]+?(?:\s+|(?=--)|$)', re.MULTILINE)
+
+Give me some example input/outputs
+```
+
+[out]:
+
+
+```
+re_boundary_realignment = re.compile(
+    r'["\')\]}]+'         # One or more closing punctuation characters
+    r'(?:\s+|(?=--)|$)',  # Followed by space, or '--' (not consumed), or end of string
+    re.MULTILINE
+)
+```
+
+and
+
+```
+import re
+
+re_boundary_realignment = re.compile(r'["\')\]}]+(?:\s+|(?=--)|$)', re.MULTILINE)
+
+examples = [
+    'The total was (5 + 3). ',
+    'A quote: "hello" -- what do you think?',
+    'Function call: func()] --done',
+    'Nested: [value])}',
+    'No punctuation here',
+    'Sentence ends here."',
+]
+
+for text in examples:
+    matches = re_boundary_realignment.findall(text)
+    print(f"Input: {text!r}\nMatches: {matches}\n")
+```
+
+Okay, now I've my first unittest cases.
