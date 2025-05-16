@@ -239,3 +239,34 @@ for text in examples:
 ```
 
 Okay, now I've my first unittest cases.
+
+Now squeeze the vibe code more:
+
+```
+Improve the regex
+
+re_boundary_realignment = re.compile(r'["\')\]}]+(?:\s+|(?=--)|$)', re.MULTILINE)
+```
+
+[out]:
+
+```python
+import regex
+
+re_boundary_realignment = regex.compile(
+    r'''                    # Start of raw string (triple-quoted for clarity)
+    [\p{Pe}\p{Pf}"]+        # Match one or more of the following:
+                            #   \p{Pe} = any Unicode 'Close' punctuation character (e.g., ), ], }, ›)
+                            #   \p{Pf} = any Unicode 'Final quote' punctuation (e.g., ’, ”, ›)
+                            #   "       = literal double quote (included explicitly for safety)
+
+    (?=                     # Start of a lookahead (does not consume characters)
+        \s+                #   Match one or more whitespace characters, OR
+        |--                #   Match two hyphens (common em-dash substitute), OR
+        |$                 #   Match the end of the string
+    )                      # End of lookahead
+
+    ''',
+    regex.MULTILINE | regex.VERBOSE  # Enable multiline mode and allow inline comments
+)
+```
