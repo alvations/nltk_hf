@@ -81,6 +81,11 @@ https://www.google.com/search?q=inurl:s3.amazonaws.com/tm-town-nlp-resources/
 - Evaluating Word Alignment Systems [Evaluating+Word+Alignment+Systems+-+STP.pdf](https://github.com/user-attachments/files/20261180/Evaluating%2BWord%2BAlignment%2BSystems%2B-%2BSTP.pdf)
 - Sentence Boundary Detection and the Problem with the U.S. [sbd_naacl_2009.pdf](https://github.com/user-attachments/files/20261184/sbd_naacl_2009.pdf)
 - Improved Sentence Alignment for Movie Subtitles [ranlp07-subalign.pdf](https://github.com/user-attachments/files/20261186/ranlp07-subalign.pdf)
-- Period, Capital, etc. 
+- Period, Capital, etc. [cl-prop-compressed.pdf](https://github.com/user-attachments/files/20261207/cl-prop-compressed.pdf)
+- Improved Unsupervised Sentence Alignment for Symmetrical and Asymmetrical Parallel Corpora [braune_coling2010.pdf](https://github.com/user-attachments/files/20261202/braune_coling2010.pdf)
+- ALIGNING SENTENCES IN PARALLEL CORPORA [p169-brown.pdf](https://github.com/user-attachments/files/20261205/p169-brown.pdf)
+- Sentence Boundary Detection: A Long Solved Problem? [C12-2096.pdf](https://github.com/user-attachments/files/20261210/C12-2096.pdf)
+
+
 
 
