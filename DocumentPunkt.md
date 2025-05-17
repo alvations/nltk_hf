@@ -85,7 +85,12 @@ https://www.google.com/search?q=inurl:s3.amazonaws.com/tm-town-nlp-resources/
 - Improved Unsupervised Sentence Alignment for Symmetrical and Asymmetrical Parallel Corpora [braune_coling2010.pdf](https://github.com/user-attachments/files/20261202/braune_coling2010.pdf)
 - ALIGNING SENTENCES IN PARALLEL CORPORA [p169-brown.pdf](https://github.com/user-attachments/files/20261205/p169-brown.pdf)
 - Sentence Boundary Detection: A Long Solved Problem? [C12-2096.pdf](https://github.com/user-attachments/files/20261210/C12-2096.pdf)
-
-
-
-
+- Sentence Boundary Detection: A Comparison of Paradigms for Improving MT Quality [walker.pdf](https://github.com/user-attachments/files/20261215/walker.pdf)
+- Elephant: Sequence Labeling for Word and Sentence Segmentation [Elephant-+Sequence+Labeling+for+Word+and+Sentence+Segmentation.pdf](https://github.com/user-attachments/files/20261216/Elephant-%2BSequence%2BLabeling%2Bfor%2BWord%2Band%2BSentence%2BSegmentation.pdf)
+- A Maximum Entropy Approach to Identifying Sentence Boundaries [A97-1004.pdf](https://github.com/user-attachments/files/20261218/A97-1004.pdf)
+- Segmentation and alignment of parallel text for statistical machine translation [JNLE-REF300-Dec05.pdf](https://github.com/user-attachments/files/20261219/JNLE-REF300-Dec05.pdf)
+- Tagging Sentence Boundaries [A00-2035.pdf](https://github.com/user-attachments/files/20261223/A00-2035.pdf)
+- Adaptive Multilingual Sentence Boundary Disambiguation [cl-palmer.pdf](https://github.com/user-attachments/files/20261237/cl-palmer.pdf)
+- AUTOMATIC EXTRACTION OF RULES FOR SENTENCE BOUNDARY DISAMBIGUATION [Automatic+Extraction+of+Rules+For+Sentence+Boundary+Disambiguation.pdf](https://github.com/user-attachments/files/20261239/Automatic%2BExtraction%2Bof%2BRules%2BFor%2BSentence%2BBoundary%2BDisambiguation.pdf) - Brill Tagger
+- [golden_rules.txt](https://github.com/user-attachments/files/20261249/golden_rules.txt)
+- Evaluation of Sentence Alignment Systems [sentence_alignment (1).pdf](https://github.com/user-attachments/files/20261260/sentence_alignment.1.pdf)
