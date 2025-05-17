@@ -75,3 +75,12 @@ https://www.google.com/search?q=inurl:s3.amazonaws.com/tm-town-nlp-resources/
 - IBM Research Report (BLEU) [ibm_bleu_2001.pdf](https://github.com/user-attachments/files/20261156/ibm_bleu_2001.pdf)
 - What's a word? What's a sentence? [GrefenstetteTapanainen1994.pdf](https://github.com/user-attachments/files/20261157/GrefenstetteTapanainen1994.pdf)
 - Kiss and Strunk Punkt (2006) [ks2005FINAL.pdf](https://github.com/user-attachments/files/20261160/ks2005FINAL.pdf)
+- Extrinsic Evaluation of Sentence Alignment Systems [sent-align.pdf](https://github.com/user-attachments/files/20261166/sent-align.pdf)
+- An Analysis of Sentence Boundary Detection Systems for English and Portuguese Documents [An+Analysis+of+Sentence+Boundary+Detection+Systems+for+English+and+Portuguese+Documents.pdf](https://github.com/user-attachments/files/20261169/An%2BAnalysis%2Bof%2BSentence%2BBoundary%2BDetection%2BSystems%2Bfor%2BEnglish%2Band%2BPortuguese%2BDocuments.pdf)
+- Automatic sentence break disambiguation for Thai [iccpol2001.pdf](https://github.com/user-attachments/files/20261177/iccpol2001.pdf)
+- Evaluating Word Alignment Systems [Evaluating+Word+Alignment+Systems+-+STP.pdf](https://github.com/user-attachments/files/20261180/Evaluating%2BWord%2BAlignment%2BSystems%2B-%2BSTP.pdf)
+- Sentence Boundary Detection and the Problem with the U.S. [sbd_naacl_2009.pdf](https://github.com/user-attachments/files/20261184/sbd_naacl_2009.pdf)
+- Improved Sentence Alignment for Movie Subtitles [ranlp07-subalign.pdf](https://github.com/user-attachments/files/20261186/ranlp07-subalign.pdf)
+- Period, Capital, etc. 
+
+
