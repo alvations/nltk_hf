@@ -62,3 +62,16 @@ turkish.pickle      Turkish             METU Turkish Corpus                Milli
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
+
+
+# Related Works
+
+https://www.google.com/search?q=inurl:s3.amazonaws.com/tm-town-nlp-resources/
+
+- Using SRX standard for sentence segmentation in LanguageTool [ltc-043-milkowski.pdf](https://github.com/user-attachments/files/20261132/ltc-043-milkowski.pdf)
+- Alinging sentence in bilingual corpora using lexical information [Aligning+sentences+in+bilingual+corpora+using+lexical+information.pdf](https://github.com/user-attachments/files/20261133/Aligning%2Bsentences%2Bin%2Bbilingual%2Bcorpora%2Busing%2Blexical%2Binformation.pdf)
+- Thoughts on Word and Sentence Segmentation in Thai [snlp2007-wirote.pdf](https://github.com/user-attachments/files/20261146/snlp2007-wirote.pdf)
+- A Sentence Boundary Detection System [SpResConf00 (1).pdf](https://github.com/user-attachments/files/20261148/SpResConf00.1.pdf)
+- IBM Research Report (BLEU) [ibm_bleu_2001.pdf](https://github.com/user-attachments/files/20261156/ibm_bleu_2001.pdf)
+- What's a word? What's a sentence? [GrefenstetteTapanainen1994.pdf](https://github.com/user-attachments/files/20261157/GrefenstetteTapanainen1994.pdf)
+- Kiss and Strunk Punkt (2006) [ks2005FINAL.pdf](https://github.com/user-attachments/files/20261160/ks2005FINAL.pdf)
