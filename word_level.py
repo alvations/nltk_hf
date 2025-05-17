@@ -1,6 +1,6 @@
 import re
 
-from constants import sent_end_chars
+from patterns import sent_end_chars
 
     
 class PunktWordTokenizer:
